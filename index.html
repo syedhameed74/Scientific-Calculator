@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Pro Scientific Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="calculator">
+        <input type="text" id="display" readonly>
+
+        <div class="buttons">
+            <!-- Scientific -->
+            <button data-value="sin(">sin</button>
+            <button data-value="cos(">cos</button>
+            <button data-value="tan(">tan</button>
+            <button data-value="Math.sqrt(">√</button>
+
+            <button data-value="Math.log10(">log</button>
+            <button data-value="Math.log(">ln</button>
+            <button data-value="**">xʸ</button>
+            <button data-value="%">%</button>
+
+            <!-- Numbers -->
+            <button data-value="7">7</button>
+            <button data-value="8">8</button>
+            <button data-value="9">9</button>
+            <button data-value="/">÷</button>
+
+            <button data-value="4">4</button>
+            <button data-value="5">5</button>
+            <button data-value="6">6</button>
+            <button data-value="*">×</button>
+
+            <button data-value="1">1</button>
+            <button data-value="2">2</button>
+            <button data-value="3">3</button>
+            <button data-value="-">−</button>
+
+            <button data-value="0">0</button>
+            <button data-value=".">.</button>
+            <button id="clear">C</button>
+            <button data-value="+">+</button>
+
+            <button data-value="Math.PI">π</button>
+            <button data-value="Math.E">e</button>
+            <button id="factorial">x!</button>
+            <button id="equals">=</button>
+        </div>
+    </div>
+
+    <audio id="clickSound" src="https://assets.mixkit.co/sfx/preview/mixkit-select-click-1109.mp3"></audio>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
